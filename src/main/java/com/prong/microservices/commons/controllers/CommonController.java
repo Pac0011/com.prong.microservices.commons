@@ -20,6 +20,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import com.prong.microservices.commons.services.CommonService;
 
+//Comment
 //@CrossOrigin({"http://localhost:4200"})
 public class CommonController<E, S extends CommonService<E>> {
 	
